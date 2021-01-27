@@ -6,20 +6,20 @@ As seen in my LinkedIn [Post](https://www.linkedin.com/posts/denzilfernandes_mic
 >
 > 🏠 How this helps? Well I have 3 kids schooling online at home. As I begin my journey at Microsoft, I am in many training sessions some of which I would like to have a little less interruption. Now I can change the light in their room so they know "Daddy's on a call"
 
-# Tenant & License Requirements
+## Tenant & License Requirements
 1. Azure AD App Registration
 2. Power Automate with Premium Connectors ( HTTPS Request / When a HTTP Request is received)
 3. Microsoft Teams 
 
-#Azure AD App Registration
+## Azure AD App Registration
 1. Register Azure AD Application and Grant Permission to the Teams Presence API
 
 
-#Power Automate
+## Power Automate
 1. Get the ObjectID from Azure AD for the User Account that we need to subscribe for Teams Presence Changes.
 2. Import 2 Power Automate Flows
- * Create Subscription for Teams Presence 
- * Get Teams Presence Subscription
+  - Create Subscription for Teams Presence 
+  - Get Teams Presence Subscription
 
-#Microsoft Teams
+## Microsoft Teams
 1. Test Changing the Presence Status of the User Account (i.e. Account that is setup for teams subscription)
