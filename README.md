@@ -19,7 +19,7 @@ As seen in my LinkedIn [Post](https://www.linkedin.com/posts/denzilfernandes_mic
 1. Get the ObjectID from Azure AD for the User Account that we need to subscribe for Teams Presence Changes.
 2. Import 2 Power Automate Flows
  * Create Subscription for Teams Presence 
- *Get Teams Presence Subscription
+ * Get Teams Presence Subscription
 
 #Microsoft Teams
 1. Test Changing the Presence Status of the User Account (i.e. Account that is setup for teams subscription)
