@@ -1,6 +1,6 @@
 # TeamsPresenceAPI
 💡 Use the Teams Presence API to flow events based on user status. This demonstration shows how you can connect Teams Presence to your Smart Home 🏬
-Source: [LinkedIn](https://www.linkedin.com/posts/denzilfernandes_microsoft365-powerautomate-apifirst-activity-6755244173097623553-GCTN) 
+* Source: [LinkedIn](https://www.linkedin.com/posts/denzilfernandes_microsoft365-powerautomate-apifirst-activity-6755244173097623553-GCTN) 
 
 ## M365 Tenant & 3rd Party Requirements 
 1. Azure AD App Registration
