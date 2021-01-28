@@ -21,7 +21,7 @@ Use a Webhook as a Trigger and set an action to control the lights or devices yo
 
 ## Power Automate
 1. Get the ObjectID from Azure AD for the User Account that we need to subscribe for Teams Presence Changes.
-<img src="https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/1-AzureADUserObjectID.png"  style="max-width:100%;">
+<img src="https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/1-AzureADUserObjectID.png">
 
 2. Import [Get Teams Presence Subscription](https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/3A0-GetTeamsPresenceSubscription-Exported_20210128160412.zip)
 <img src="https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/3A1-PowerAutomate-GetTeamsPresenceSubscription-CopyHTTPRequestReceived.png">
