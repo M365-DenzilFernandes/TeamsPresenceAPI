@@ -25,8 +25,10 @@ Use a Webhook as a Trigger and set an action to control the lights or devices yo
 
 2. Import [Get Teams Presence Subscription](https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/3A0-GetTeamsPresenceSubscription-Exported_20210128160412.zip)
 
-  * Copy the HTTP Request URL 
+  * Copy the HTTP Post URL to be used later in Step 3
 <img src="https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/3A1-PowerAutomate-GetTeamsPresenceSubscription-CopyHTTPRequestReceived.png" style="max-width:100%;">
+
+ * Update the HTTP Post URL to IFTTT Webhooks
 <img src="https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/3A2-PowerAutomate-GetTeamsPresenceSubscription-UpdatePostToTriggerIFTTT.png" style="max-width:100%;">
 
 3. Import [Create Subscription for Teams Presence](https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/3B0-CreateSubscriptionforTeamsPresence-Exported_20210128160435.zip)
