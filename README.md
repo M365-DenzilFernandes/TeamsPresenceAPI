@@ -11,7 +11,8 @@
 ## IFTTT
 **Important** This solution uses a 3rd party Webhook. If This Then That is a web-based service that allows users to create chains of conditional statements triggered by changes that occur within other web services. 
 Use a Webhook as a Trigger and set an action to control the lights or devices you want to connect and control. 
-1. Use IFTTT to create a Webhook Trigger with an action to control the smart devices. (https://ifttt.com/create/if-maker-webhooks)
+1. Get your IFTTT Key by clicking on the "Documentation" link on the page here https://ifttt.com/maker_webhooks
+2. Use IFTTT to create a Webhook Trigger with an action to control the smart devices. (https://ifttt.com/create/if-maker-webhooks)
 2. Copy the Webhook Url from IFTTT (Example: https://maker.ifttt.com/trigger/activate_kidsroom_busy/with/key/k12345678ABCDEx)
 
 IFTT Webhook FAQ Check out (https://help.ifttt.com/hc/en-us/articles/115010230347-Webhooks-service-FAQ)
