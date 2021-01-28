@@ -3,22 +3,23 @@
 * Source: [LinkedIn](https://www.linkedin.com/posts/denzilfernandes_microsoft365-powerautomate-apifirst-activity-6755244173097623553-GCTN) 
 
 ## M365 Tenant & 3rd Party Requirements 
-1. Azure AD App Registration
-2. IFTTT 
+1. IFTTT 
+2. Azure AD App Registration
 2. Power Automate with Premium Connectors ( HTTPS Request / When a HTTP Request is received)
 3. Microsoft Teams 
 
-## Azure AD App Registration
-1. Register Azure AD Application and Grant the application Delegated permission to the Teams Presence API.
-2. Gather the Tenant ID, Application ID And Create a Secret ID which will be used in the flows below.
-<img src="https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/1-AzureADAppRegistration.png" style="max-width:70%;">
-
 ## IFTTT
+**Important** This solution uses a 3rd party Webhook. If This Then That is a web-based service that allows users to create chains of conditional statements triggered by changes that occur within other web services. 
 Use a Webhook as a Trigger and set an action to control the lights or devices you want to connect and control. 
 1. Use IFTTT to create a Webhook Trigger with an action to control the smart devices. (https://ifttt.com/create/if-maker-webhooks)
 2. Copy the Webhook Url from IFTTT (Example: https://maker.ifttt.com/trigger/activate_kidsroom_busy/with/key/k12345678ABCDEx)
 
 IFTT Webhook FAQ Check out (https://help.ifttt.com/hc/en-us/articles/115010230347-Webhooks-service-FAQ)
+
+## Azure AD App Registration
+1. Register Azure AD Application and Grant the application Delegated permission to the Teams Presence API.
+2. Gather the Tenant ID, Application ID And Create a Secret ID which will be used in the flows below.
+<img src="https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/1-AzureADAppRegistration.png" style="max-width:70%;">
 
 ## Power Automate
 1. Get the ObjectID from Azure AD for the User Account that we need to subscribe for Teams Presence Changes.
