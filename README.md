@@ -34,6 +34,7 @@ IFTT Webhook FAQ Check out (https://help.ifttt.com/hc/en-us/articles/11501023034
 <img src="https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/3A2-PowerAutomate-GetTeamsPresenceSubscription-UpdatePostToTriggerIFTTT.png" style="max-width:100%;">
 
 3. Import [Create Subscription for Teams Presence](https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/3B0-CreateSubscriptionforTeamsPresence-Exported_20210128160435.zip)
+Subscriptions expire every hour and must be renewed. By using a scheduled flow of every hour we can keep subscribing to the Teams Presence API. 
 
  * Update the Tenant ID, Application ID and Secret. 
 <img src="https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/3B1-PowerAutomate-CreateSubscriptionforTeamsPresence-UpdateUserNamePassword.png" style="max-width:100%;">
@@ -42,6 +43,8 @@ IFTT Webhook FAQ Check out (https://help.ifttt.com/hc/en-us/articles/11501023034
 <img src="https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/3B2-PowerAutomate-CreateSubscriptionforTeamsPresence-UpdateUserNamePassword.png" style="max-width:100%;">
 
   * Update the NotificationURL - This URL is the HTTP Request Received from the Get Teams Presence Subscription
+  * Update the Resource - This is the ObjecId is of the User Account that the subscription will monitor for Teams Presence Changes.
+
 <img src="https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/3B3-PowerAutomate-CreateSubscriptionforTeamsPresence-UpdateNotificationUrl%2BResourceGUID.png" style="max-width:100%;">
 
 ## Microsoft Teams
