@@ -9,7 +9,7 @@
 3. Microsoft Teams 
 
 ## Azure AD App Registration
-1. Register Azure AD Application and Grant Permission to the Teams Presence API
+1. Register Azure AD Application and Grant the application Delegated permission to the Teams Presence API.
 2. Gather the Tenant ID, Application ID And Create a Secret ID which will be used in the flows below.
 <img src="https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/1-AzureADAppRegistration.png" style="max-width:70%;">
 
