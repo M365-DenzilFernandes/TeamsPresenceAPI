@@ -15,9 +15,11 @@ Use the Teams Presence API to flow events based on user status. This demonstrati
 <img src="https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/1-AzureADAppRegistration.png" style="max-width:100%;">
 
 ## IFTTT
-Use a Webhook as a Trigger and set an action to control the lights or devices you want to connect and control.
-1. If you have already use IFTTT then proceed to create a trigger using Webhook. (https://ifttt.com/create/if-maker-webhooks)
-2. IFTT Webhook FAQ Check out (https://help.ifttt.com/hc/en-us/articles/115010230347-Webhooks-service-FAQ)
+Use a Webhook as a Trigger and set an action to control the lights or devices you want to connect and control. 
+1. Use IFTTT to create a Webhook Trigger with an action to control the smart devices. (https://ifttt.com/create/if-maker-webhooks)
+2. Copy the Webhook Url from IFTTT (Example: https://maker.ifttt.com/trigger/activate_kidsroom_busy/with/key/k12345678ABCDEx)
+
+IFTT Webhook FAQ Check out (https://help.ifttt.com/hc/en-us/articles/115010230347-Webhooks-service-FAQ)
 
 ## Power Automate
 1. Get the ObjectID from Azure AD for the User Account that we need to subscribe for Teams Presence Changes.
@@ -32,7 +34,11 @@ Use a Webhook as a Trigger and set an action to control the lights or devices yo
 <img src="https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/3A2-PowerAutomate-GetTeamsPresenceSubscription-UpdatePostToTriggerIFTTT.png" style="max-width:100%;">
 
 3. Import [Create Subscription for Teams Presence](https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/3B0-CreateSubscriptionforTeamsPresence-Exported_20210128160435.zip)
+
+ * Update the Tenant ID, Application ID and Secret. 
 <img src="https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/3B1-PowerAutomate-CreateSubscriptionforTeamsPresence-UpdateUserNamePassword.png" style="max-width:100%;">
+
+ Update the username password. Note: If you have MFA on your account, you can use another account in the same tenant without MFA enabled.
 <img src="https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/3B2-PowerAutomate-CreateSubscriptionforTeamsPresence-UpdateUserNamePassword.png" style="max-width:100%;">
 
   * Update the NotificationURL - This URL is the HTTP Request Received from the Get Teams Presence Subscription
