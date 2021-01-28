@@ -1,11 +1,11 @@
 # TeamsPresenceAPI
-Use the Teams Presence API to automate events based on user status. This demonstration shows how you can connect Teams Presence to your Smart Home
+Use the Teams Presence API to flow events based on user status. This demonstration shows how you can connect Teams Presence to your Smart Home
 
 [LinkedIn](https://www.linkedin.com/posts/denzilfernandes_microsoft365-powerautomate-apifirst-activity-6755244173097623553-GCTN) 
 
 ## M365 Tenant & 3rd Party Requirements 
 1. Azure AD App Registration
-2. IFTTT Subscription
+2. IFTTT 
 2. Power Automate with Premium Connectors ( HTTPS Request / When a HTTP Request is received)
 3. Microsoft Teams 
 
