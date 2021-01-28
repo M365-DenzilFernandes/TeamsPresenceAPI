@@ -11,6 +11,7 @@ Use the Teams Presence API to flow events based on user status. This demonstrati
 
 ## Azure AD App Registration
 1. Register Azure AD Application and Grant Permission to the Teams Presence API
+<img src="https://github.com/M365-DenzilFernandes/TeamsPresenceAPI/blob/main/1-AzureADAppRegistration.png"  style="max-width:100%;">
 
 ## IFTTT
 Use a Webhook as a Trigger and set an action to control the lights or devices you want to connect and control.
